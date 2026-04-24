@@ -218,7 +218,7 @@
   width: 1.2em;
   height: 1.2em;
   vertical-align: -0.2em;
-  fill: currentColor;
+  fill: currentColor; 
 }  
 
   @media (max-width:480px){
