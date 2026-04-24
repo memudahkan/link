@@ -207,6 +207,13 @@
       color:var(--bio-muted);
     }
 
+.icon {
+  width: 1.1em;
+  height: 1.1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+}
 
   @media (max-width:480px){
     .bio-card{
