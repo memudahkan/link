@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 — M2D Link Bio</title>
+  <meta name="robots" content="noindex, follow">
+
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f7f7f8;
+      --text: #18181b;
+      --muted: #71717a;
+      --card: #ffffff;
+      --border: #e4e4e7;
+      --btn: #18181b;
+      --btn-text: #ffffff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #09090b;
+        --text: #f4f4f5;
+        --muted: #a1a1aa;
+        --card: #18181b;
+        --border: #27272a;
+        --btn: #f4f4f5;
+        --btn-text: #09090b;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(100%, 420px);
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: var(--card);
+      text-align: center;
+    }
+
+    .code {
+      margin: 0 0 10px;
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--muted);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      line-height: 1.2;
+      letter-spacing: -.03em;
+    }
+
+    p {
+      margin: 12px 0 22px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .actions {
+      display: grid;
+      gap: 10px;
+    }
+
+    a {
+      display: block;
+      padding: 12px 14px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .primary {
+      background: var(--btn);
+      color: var(--btn-text);
+    }
+
+    .secondary {
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    a:active {
+      transform: scale(.98);
+    }
+
+    a:focus-visible {
+      outline: 3px solid #60a5fa;
+      outline-offset: 3px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="code">404</div>
+    <h1>Link tidak ditemukan</h1>
+    <p>
+      Mungkin salah ketik, terlalu ngarang, atau tidak tersedia lagi.
+      Silakan kembali ke laman M2D berikut.
+    </p>
+
+    <div class="actions">
+      <a class="primary" href="https://bio.memudahkan.com">Link Bio</a>
+      <a class="secondary" href="https://hub.memudahkan.com">Link Hub</a>
+    </div>
+  </main>
+</body>
+</html>
